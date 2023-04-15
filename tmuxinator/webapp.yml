@@ -1,0 +1,8 @@
+name: webapp
+root: ~/Workspace/web/app
+
+windows:
+  - editor: nvim
+  - bash: git fetch --all && git status
+  - lint: print -S "npm run lint"
+  - server: print -S "npm run start"

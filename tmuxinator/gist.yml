@@ -1,0 +1,7 @@
+name: gist
+root: ~/Workspace/gist
+
+windows:
+  - editor: nvim
+  - bash: git fetch --all
+

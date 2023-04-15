@@ -1,0 +1,14 @@
+name: watch
+root: ~/Workspace/backoffice
+
+windows:
+  - watch:
+      panes:
+        - dashboard:
+          - cd vulcain-dashboard
+        - c360:
+          - cd modules/c360
+        - cli:
+          - echo "Hi, Iker!"
+
+
